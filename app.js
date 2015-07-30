@@ -93,7 +93,7 @@ if (Meteor.isClient) {
 
 if (Meteor.isCordova) {
   GeolocationBG.config({
-    url: 'https://geolocationbackgroundexample.meteor.com/api/geolocation',
+    url: 'https://senapp.meteor.com/api/geolocation',
     debug: true
   });
   // triggered by a start button
